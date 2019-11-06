@@ -6,4 +6,8 @@ extracting files from a jar package, and put these file in a folder
 
 ### jar-replace.sh
 under the dir that the jar-extract.sh generated, after modifying the code
-> /bin/bash jar-replace.sh [path] [jar-package] [regx-of-the-name-of-modified-file]
+> /bin/bash jar-replace.sh [path] [jar-package] [regx-of-the-name-of-file]
+
+### jar-delete.sh
+under the dir that the jar-extract.sh generated, running this script
+> /bin/bash jar-delete.sh [path] [jar-package] [regx-of-the-name-of-file]
